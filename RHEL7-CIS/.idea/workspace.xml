@@ -1,0 +1,854 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a58162de-39ab-48eb-ab40-5a62148775d9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Vagrantfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/files/audit_6.2.10.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/files/audit_6.2.11.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/files/audit_6.2.12.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/files/audit_6.2.13.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/files/audit_6.2.14.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/files/audit_6.2.15.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/files/audit_6.2.16.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/files/audit_6.2.17.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/files/audit_6.2.18.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/files/audit_6.2.19.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/files/audit_6.2.6.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/files/audit_6.2.7.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/files/audit_6.2.8.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/files/audit_6.2.9.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/level-1.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/level-1/1.1.1.1.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/level-1/1.1.1.2.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/level-1/1.1.1.3.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/level-1/1.1.1.4.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/level-1/1.1.1.5.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/level-1/1.1.1.6.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/level-1/1.1.1.7.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/level-1/1.1.1.8.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/level-1/1.1.10.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/level-1/1.1.14.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/level-1/1.1.15.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/level-1/1.1.16.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/level-1/1.1.17.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/level-1/1.1.18.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/level-1/1.1.19.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/level-1/1.1.3.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/level-1/1.1.4.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/level-1/1.1.5.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/level-1/1.1.8.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/level-1/1.1.9.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/level-1/1.2.1.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/level-1/1.2.2.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/level-1/1.2.3.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/level-1/1.3.1.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/level-1/1.3.2.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/level-1/1.4.1.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/level-1/1.4.2.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/level-1/1.4.3.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/level-1/1.5.1.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/level-1/1.5.2.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/level-1/1.5.3.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/level-1/1.5.4.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/level-1/1.7.1.1.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/level-1/1.7.1.2.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/level-1/1.7.1.3.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/level-1/1.7.1.4.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/level-1/1.7.1.5.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/level-1/1.7.1.6.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/level-1/1.8.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/level-1/2.1.1.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/level-1/2.1.10.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/level-1/2.1.11.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/level-1/2.1.2.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/level-1/2.1.3.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/level-1/2.1.4.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/level-1/2.1.5.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/level-1/2.1.6.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/level-1/2.1.7.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/level-1/2.1.8.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/level-1/2.1.9.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/level-1/2.2.1.1.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/level-1/2.2.1.2.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/level-1/2.2.1.3.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/level-1/2.2.10.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/level-1/2.2.11.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/level-1/2.2.12.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/level-1/2.2.13.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/level-1/2.2.14.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/level-1/2.2.15.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/level-1/2.2.16.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/level-1/2.2.2.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/level-1/2.2.3.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/level-1/2.2.4.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/level-1/2.2.5.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/level-1/2.2.6.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/level-1/2.2.7.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/level-1/2.2.8.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/level-1/2.2.9.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/level-1/2.3.1.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/level-1/2.3.2.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/level-1/2.3.3.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/level-1/2.3.4.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/level-1/2.3.5.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/level-1/3.1.1.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/level-1/3.1.2.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/level-1/3.2.1.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/level-1/3.2.2.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/level-1/3.2.3.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/level-1/3.2.4.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/level-1/3.2.5.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/level-1/3.2.6.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/level-1/3.2.7.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/level-1/3.2.8.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/level-1/3.3.1.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/level-1/3.3.2.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/level-1/3.3.3.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/level-1/3.4.1.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/level-1/3.4.2.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/level-1/3.4.3.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/level-1/3.4.4.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/level-1/3.4.5.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/level-1/3.5.1.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/level-1/3.5.2.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/level-1/3.5.3.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/level-1/3.5.4.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/level-1/3.6.1.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/level-1/3.6.2.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/level-1/3.6.3.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/level-1/3.6.4.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/level-1/3.6.5.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/level-1/4.2.1.1.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/level-1/4.2.1.2.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/level-1/4.2.1.3.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/level-1/4.2.1.4.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/level-1/4.2.1.5.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/level-1/4.2.2.1.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/level-1/4.2.2.2.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/level-1/4.2.2.3.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/level-1/4.2.2.4.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/level-1/4.2.2.5.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/level-1/4.2.3.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/level-1/4.2.4.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/level-1/4.3.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/level-1/5.1.1.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/level-1/5.1.2.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/level-1/5.1.3.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/level-1/5.1.4.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/level-1/5.1.5.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/level-1/5.1.6.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/level-1/5.1.7.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/level-1/5.1.8.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/level-1/5.2.1.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/level-1/5.2.10.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/level-1/5.2.11.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/level-1/5.2.12.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/level-1/5.2.13.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/level-1/5.2.14.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/level-1/5.2.15.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/level-1/5.2.16.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/level-1/5.2.2.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/level-1/5.2.3.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/level-1/5.2.4.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/level-1/5.2.5.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/level-1/5.2.6.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/level-1/5.2.7.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/level-1/5.2.8.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/level-1/5.2.9.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/level-1/5.3.1.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/level-1/5.3.2.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/level-1/5.3.3.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/level-1/5.3.4.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/level-1/5.4.1.1.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/level-1/5.4.1.2.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/level-1/5.4.1.3.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/level-1/5.4.1.4.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/level-1/5.4.2.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/level-1/5.4.3.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/level-1/5.4.4.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/level-1/5.5.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/level-1/6.1.10.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/level-1/6.1.11.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/level-1/6.1.12.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/level-1/6.1.13.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/level-1/6.1.14.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/level-1/6.1.2.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/level-1/6.1.3.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/level-1/6.1.4.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/level-1/6.1.5.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/level-1/6.1.6.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/level-1/6.1.7.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/level-1/6.1.8.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/level-1/6.1.9.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/level-1/6.2.1.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/level-1/6.2.10.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/level-1/6.2.11.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/level-1/6.2.12.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/level-1/6.2.13.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/level-1/6.2.14.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/level-1/6.2.15.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/level-1/6.2.16.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/level-1/6.2.17.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/level-1/6.2.18.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/level-1/6.2.19.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/level-1/6.2.2.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/level-1/6.2.3.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/level-1/6.2.4.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/level-1/6.2.5.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/level-1/6.2.6.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/level-1/6.2.7.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/level-1/6.2.8.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/level-1/6.2.9.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/level-1/stat_sshd_config.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/level-2.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/level-2/4.1.2.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/level-2/4.1.3.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/level-2/4.1.n.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/level-2/4.1.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/level-2/6.1.1.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/preflight.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/chrony2.conf.j2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/ntp2.conf.j2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.yamllint" beforeDir="false" afterPath="$PROJECT_DIR$/.yamllint" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/defaults/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/defaults/main.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/group_vars/docker" beforeDir="false" afterPath="$PROJECT_DIR$/group_vars/docker" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/group_vars/vagrant" beforeDir="false" afterPath="$PROJECT_DIR$/group_vars/vagrant" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/handlers/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/handlers/main.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/meta/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/meta/main.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/molecule.yml" beforeDir="false" afterPath="$PROJECT_DIR$/molecule.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playbook.yml" beforeDir="false" afterPath="$PROJECT_DIR$/playbook.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tasks/main.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tasks/post.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tasks/post.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tasks/prelim.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tasks/prelim.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vagrant.yml" beforeDir="false" afterPath="$PROJECT_DIR$/vagrant.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vars/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/vars/main.yml" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="RHEL7-CIS" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tasks/level-1/1.1.1.2.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="555">
+              <caret line="37" selection-start-line="37" selection-end-line="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tasks/level-1/1.1.1.1.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="690">
+              <caret line="46" selection-start-line="46" selection-end-line="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/playbook.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="14" lean-forward="true" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/defaults/main.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="11670">
+              <caret line="778" selection-start-line="778" selection-end-line="778" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/handlers/main.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1710">
+              <caret line="114" selection-start-line="114" selection-end-line="114" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tasks/level-1/1.1.17.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tasks/level-1/1.1.1.5.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="555">
+              <caret line="37" selection-start-line="37" selection-end-line="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tasks/level-1/6.2.6.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="585">
+              <caret line="39" selection-start-line="39" selection-end-line="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tasks/level-1/1.1.1.6.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="555">
+              <caret line="37" selection-start-line="37" selection-end-line="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tasks/level-1/1.1.1.7.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="555">
+              <caret line="37" selection-start-line="37" selection-end-line="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>- ([a-z]*)</find>
+      <find>chrony.conf.j2</find>
+      <find>templates/</find>
+      <find>dest: /etc/</find>
+      <find>modprobe_1_1_1_2</find>
+      <find># Standards: 1.1.32</find>
+      <find># Standards: 0.11</find>
+      <find>---</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>&quot;$1&quot;</replace>
+      <replace />
+    </replaceStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/tasks</dir>
+      <dir>$PROJECT_DIR$</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/meta/main.yml" />
+        <option value="$PROJECT_DIR$/templates/ntp2.conf.j2" />
+        <option value="$PROJECT_DIR$/tasks/level-1/2.2.1.3.yml" />
+        <option value="$PROJECT_DIR$/tasks/level-1/2.2.1.2.yml" />
+        <option value="$PROJECT_DIR$/vars/main.yml" />
+        <option value="$PROJECT_DIR$/tasks/level-1/3.4.2.yml" />
+        <option value="$PROJECT_DIR$/tasks/level-1/4.2.4.yml" />
+        <option value="$PROJECT_DIR$/tasks/main.yml" />
+        <option value="$PROJECT_DIR$/tasks/level-1/1.5.1.yml" />
+        <option value="$PROJECT_DIR$/tasks/level-1/1.5.2.yml" />
+        <option value="$PROJECT_DIR$/tasks/level-1/2.1.10.yml" />
+        <option value="$PROJECT_DIR$/tasks/level-1/6.2.8.yml" />
+        <option value="$PROJECT_DIR$/tasks/level-1/6.2.9.yml" />
+        <option value="$PROJECT_DIR$/tasks/level-1/1.3.1.yml" />
+        <option value="$PROJECT_DIR$/tasks/level-1/2.1.11.yml" />
+        <option value="$PROJECT_DIR$/tasks/level-1/6.2.12.yml" />
+        <option value="$PROJECT_DIR$/tasks/level-1/1.4.3.yml" />
+        <option value="$PROJECT_DIR$/tasks/level-1/6.2.13.yml" />
+        <option value="$PROJECT_DIR$/tasks/level-1/6.2.11.yml" />
+        <option value="$PROJECT_DIR$/tasks/level-1/6.2.14.yml" />
+        <option value="$PROJECT_DIR$/tasks/level-1/6.2.15.yml" />
+        <option value="$PROJECT_DIR$/tasks/level-1/6.2.17.yml" />
+        <option value="$PROJECT_DIR$/tasks/level-1/4.2.1.5.yml" />
+        <option value="$PROJECT_DIR$/tasks/level-1/3.5.2.yml" />
+        <option value="$PROJECT_DIR$/tasks/level-1/1.4.2.yml" />
+        <option value="$PROJECT_DIR$/tasks/level-1/6.2.16.yml" />
+        <option value="$PROJECT_DIR$/tasks/level-1/6.2.18.yml" />
+        <option value="$PROJECT_DIR$/tasks/level-1/6.2.19.yml" />
+        <option value="$PROJECT_DIR$/tasks/level-1/2.2.14.yml" />
+        <option value="$PROJECT_DIR$/tasks/level-1/2.2.15.yml" />
+        <option value="$PROJECT_DIR$/tasks/level-1/1.1.17.yml" />
+        <option value="$PROJECT_DIR$/tasks/level-1/1.1.1.5.yml" />
+        <option value="$PROJECT_DIR$/tasks/level-1/6.2.6.yml" />
+        <option value="$PROJECT_DIR$/tasks/level-1/1.1.1.6.yml" />
+        <option value="$PROJECT_DIR$/tasks/level-1/1.1.1.7.yml" />
+        <option value="$PROJECT_DIR$/tasks/level-1/1.1.1.2.yml" />
+        <option value="$PROJECT_DIR$/tasks/level-1/1.1.1.1.yml" />
+        <option value="$PROJECT_DIR$/handlers/main.yml" />
+        <option value="$PROJECT_DIR$/defaults/main.yml" />
+        <option value="$PROJECT_DIR$/playbook.yml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/RHEL7-CIS.iml" />
+        <option value="$PROJECT_DIR$/.idea/misc.xml" />
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/.idea/modules.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="210" />
+    <option name="y" value="145" />
+    <option name="width" value="1260" />
+    <option name="height" value="739" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="RHEL7-CIS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RHEL7-CIS" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RHEL7-CIS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/templates" />
+      <recent name="$PROJECT_DIR$/tasks" />
+      <recent name="$PROJECT_DIR$/files" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a58162de-39ab-48eb-ab40-5a62148775d9" name="Default Changelist" comment="" />
+      <created>1556217328097</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1556217328097</updated>
+      <workItem from="1556217329339" duration="4402000" />
+      <workItem from="1556391110443" duration="2734000" />
+      <workItem from="1556461968576" duration="1078000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="8214000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="210" y="145" width="1260" height="739" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49823323" visible="true" weight="0.25779969" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Favorites" order="4" sideWeight="0.5017668" side_tool="true" weight="0.2536946" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.54647434" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="SciView" order="7" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/templates/ntp2.conf.j2">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/password-auth-local.j2">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/snmpd.conf.j2">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/system-auth-local.j2">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/chrony.conf.j2">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1230">
+          <caret line="82" column="46" selection-start-line="82" selection-start-column="46" selection-end-line="82" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tasks/level-1/2.2.1.3.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="18" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tasks/level-1/2.2.1.2.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tasks/level-2/4.1.2.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tasks/level-1.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tasks/level-2.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/chrony2.conf.j2">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Vagrantfile">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vagrant.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/test.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vars/main.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="27" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tasks/level-1/3.4.2.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-9" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Makefile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="24" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tasks/level-1/4.2.4.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="27" column="4" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tasks/main.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="66" selection-start-line="66" selection-end-line="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tasks/level-1/1.5.1.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="47" selection-start-line="47" selection-end-line="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tasks/level-1/1.5.2.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tasks/level-1/2.1.10.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="29" column="12" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tasks/level-1/6.2.8.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tasks/level-1/6.2.9.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tasks/level-1/1.3.1.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tasks/level-1/2.1.11.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="29" column="12" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tasks/level-1/6.2.12.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tasks/level-1/1.4.3.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tasks/level-1/6.2.13.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tasks/level-1/6.2.11.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tasks/level-1/6.2.14.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tasks/level-1/6.2.15.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tasks/level-1/6.2.17.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="38" column="12" selection-start-line="38" selection-start-column="12" selection-end-line="38" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tasks/level-1/4.2.1.5.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tasks/level-1/3.5.2.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tasks/level-1/1.4.2.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tasks/level-1/6.2.16.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tasks/level-1/6.2.18.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tasks/level-1/6.2.19.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tasks/level-1/2.2.14.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="43" selection-start-line="43" selection-end-line="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tasks/level-1/2.2.15.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tasks/level-1/1.1.1.2.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tasks/level-1/1.1.1.1.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="690">
+          <caret line="46" selection-start-line="46" selection-end-line="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/defaults/main.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="11670">
+          <caret line="778" selection-start-line="778" selection-end-line="778" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/handlers/main.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1710">
+          <caret line="114" selection-start-line="114" selection-end-line="114" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tasks/level-1/1.1.17.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tasks/level-1/1.1.1.5.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tasks/level-1/6.2.6.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tasks/level-1/1.1.1.6.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tasks/level-1/1.1.1.7.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/playbook.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="14" lean-forward="true" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

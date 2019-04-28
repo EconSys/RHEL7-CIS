@@ -1,0 +1,29 @@
+# Standards: 1.1.25
+
+galaxy_info:
+  author: Anth Courtney / Ben Wright "Daniel Shepherd, Matt Shepherd, Bas Meijeri, amunter, daswars"
+  description: Idempotent CIS Benchmarks for RHEL/CentOS Linux V2 Apply RHEL 7 CIS Baseline
+  company: JemJuliet Pty Ltd / Interested Party
+  license: MIT
+  min_ansible_version: 2.2
+  platforms:
+    - name: EL
+      versions:
+        - "7"
+  galaxy_tags: ['CIS',
+                'Linux',
+                'RHEL',
+                'EL',
+                'CentOS',
+                'hardening',
+                'benchmark',
+                'PCIDSS',
+                'compliance',
+                'idempotent',
+                "system",
+                "security",
+                "cis",
+                "hardening"
+  ]
+
+dependencies: []

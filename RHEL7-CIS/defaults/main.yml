@@ -1,0 +1,778 @@
+# defaults file for RHEL7-CIS
+rhel7cis_skip_for_travis: false
+
+rhel7cis_notauto: false
+rhel7cis_section1: true
+rhel7cis_section2: true
+rhel7cis_section3: true
+rhel7cis_section4: true
+rhel7cis_section5: true
+rhel7cis_section6: true
+
+rhel7cis_selinux_disable: false
+
+# These variables correspond with the CIS rule IDs or paragraph numbers defined in
+# the CIS benchmark documents.
+# PLEASE NOTE: These work in coordination with the section # group variables and tags.
+# You must enable an entire section in order for the variables below to take effect.
+# Section 1 rules
+rhel7cis_rule_1_1_1_1: true
+rhel7cis_rule_1_1_1_2: true
+rhel7cis_rule_1_1_1_3: true
+rhel7cis_rule_1_1_1_4: true
+rhel7cis_rule_1_1_1_5: true
+rhel7cis_rule_1_1_1_6: true
+rhel7cis_rule_1_1_1_7: true
+rhel7cis_rule_1_1_1_8: true
+rhel7cis_rule_1_1_2: true
+rhel7cis_rule_1_1_3: true
+rhel7cis_rule_1_1_4: true
+rhel7cis_rule_1_1_5: true
+rhel7cis_rule_1_1_6: true
+rhel7cis_rule_1_1_7: true
+rhel7cis_rule_1_1_8: true
+rhel7cis_rule_1_1_9: true
+rhel7cis_rule_1_1_10: true
+rhel7cis_rule_1_1_11: true
+rhel7cis_rule_1_1_12: true
+rhel7cis_rule_1_1_13: true
+rhel7cis_rule_1_1_14: true
+rhel7cis_rule_1_1_15: true
+rhel7cis_rule_1_1_16: true
+rhel7cis_rule_1_1_17: true
+rhel7cis_rule_1_1_18: true
+rhel7cis_rule_1_1_19: true
+rhel7cis_rule_1_1_20: true
+rhel7cis_rule_1_1_21: true
+rhel7cis_rule_1_1_22: true
+rhel7cis_rule_1_2_1: true
+rhel7cis_rule_1_2_2: true
+rhel7cis_rule_1_2_3: true
+rhel7cis_rule_1_2_4: true
+rhel7cis_rule_1_2_5: true
+rhel7cis_rule_1_3_1: true
+rhel7cis_rule_1_3_2: true
+rhel7cis_rule_1_4_1: true
+rhel7cis_rule_1_4_2: true
+rhel7cis_rule_1_4_3: true
+rhel7cis_rule_1_5_1: true
+rhel7cis_rule_1_5_2: true
+rhel7cis_rule_1_5_3: true
+rhel7cis_rule_1_5_4: true
+rhel7cis_rule_1_6_1_1: true
+rhel7cis_rule_1_6_1_2: true
+rhel7cis_rule_1_6_1_3: true
+rhel7cis_rule_1_6_1_4: true
+rhel7cis_rule_1_6_1_5: true
+rhel7cis_rule_1_6_2: true
+rhel7cis_rule_1_7_1_1: true
+rhel7cis_rule_1_7_1_2: true
+rhel7cis_rule_1_7_1_3: true
+rhel7cis_rule_1_7_1_4: true
+rhel7cis_rule_1_7_1_5: true
+rhel7cis_rule_1_7_1_6: true
+rhel7cis_rule_1_7_2: true
+rhel7cis_rule_1_8: true
+
+# Section 2 rules
+rhel7cis_rule_2_1_1: true
+rhel7cis_rule_2_1_2: true
+rhel7cis_rule_2_1_3: true
+rhel7cis_rule_2_1_4: true
+rhel7cis_rule_2_1_5: true
+rhel7cis_rule_2_1_6: true
+rhel7cis_rule_2_1_7: true
+rhel7cis_rule_2_2_1_1: true
+rhel7cis_rule_2_2_1_2: true
+rhel7cis_rule_2_2_1_3: true
+rhel7cis_rule_2_2_2: true
+rhel7cis_rule_2_2_3: true
+rhel7cis_rule_2_2_4: true
+rhel7cis_rule_2_2_5: true
+rhel7cis_rule_2_2_6: true
+rhel7cis_rule_2_2_7: true
+rhel7cis_rule_2_2_8: true
+rhel7cis_rule_2_2_9: true
+rhel7cis_rule_2_2_10: true
+rhel7cis_rule_2_2_11: true
+rhel7cis_rule_2_2_12: true
+rhel7cis_rule_2_2_13: true
+rhel7cis_rule_2_2_14: true
+rhel7cis_rule_2_2_15: true
+rhel7cis_rule_2_2_16: true
+rhel7cis_rule_2_2_17: true
+rhel7cis_rule_2_2_18: true
+rhel7cis_rule_2_2_19: true
+rhel7cis_rule_2_2_20: true
+rhel7cis_rule_2_2_21: true
+rhel7cis_rule_2_3_1: true
+rhel7cis_rule_2_3_2: true
+rhel7cis_rule_2_3_3: true
+rhel7cis_rule_2_3_4: true
+rhel7cis_rule_2_3_5: true
+
+# Section 3 rules
+rhel7cis_rule_3_1_1: true
+rhel7cis_rule_3_1_2: true
+rhel7cis_rule_3_2_1: true
+rhel7cis_rule_3_2_2: true
+rhel7cis_rule_3_2_3: true
+rhel7cis_rule_3_2_4: true
+rhel7cis_rule_3_2_5: true
+rhel7cis_rule_3_2_6: true
+rhel7cis_rule_3_2_7: true
+rhel7cis_rule_3_2_8: true
+rhel7cis_rule_3_3_1: true
+rhel7cis_rule_3_3_2: true
+rhel7cis_rule_3_3_3: true
+rhel7cis_rule_3_4_1: true
+rhel7cis_rule_3_4_2: true
+rhel7cis_rule_3_4_3: true
+rhel7cis_rule_3_4_4: true
+rhel7cis_rule_3_4_5: true
+rhel7cis_rule_3_5_1: true
+rhel7cis_rule_3_5_2: true
+rhel7cis_rule_3_5_3: true
+rhel7cis_rule_3_5_4: true
+rhel7cis_rule_3_6_1: true
+rhel7cis_rule_3_6_2: true
+rhel7cis_rule_3_6_3: true
+rhel7cis_rule_3_6_4: true
+rhel7cis_rule_3_6_5: true
+
+# Section 4 rules
+rhel7cis_rule_4_1_1_1: true
+rhel7cis_rule_4_1_1_2: true
+rhel7cis_rule_4_1_1_3: true
+rhel7cis_rule_4_1_2: true
+rhel7cis_rule_4_1_3: true
+rhel7cis_rule_4_1_4: true
+rhel7cis_rule_4_1_5: true
+rhel7cis_rule_4_1_6: true
+rhel7cis_rule_4_1_7: true
+rhel7cis_rule_4_1_8: true
+rhel7cis_rule_4_1_9: true
+rhel7cis_rule_4_1_10: true
+rhel7cis_rule_4_1_11: true
+rhel7cis_rule_4_1_12: true
+rhel7cis_rule_4_1_13: true
+rhel7cis_rule_4_1_14: true
+rhel7cis_rule_4_1_15: true
+rhel7cis_rule_4_1_16: true
+rhel7cis_rule_4_1_17: true
+rhel7cis_rule_4_1_18: true
+rhel7cis_rule_4_2_3: true
+rhel7cis_rule_4_2_1_1: true
+rhel7cis_rule_4_2_1_2: true
+rhel7cis_rule_4_2_1_3: true
+rhel7cis_rule_4_2_1_4: true
+rhel7cis_rule_4_2_1_5: true
+rhel7cis_rule_4_2_2_1: true
+rhel7cis_rule_4_2_2_2: true
+rhel7cis_rule_4_2_2_3: true
+rhel7cis_rule_4_2_2_4: true
+rhel7cis_rule_4_2_2_5: true
+rhel7cis_rule_4_2_4: true
+
+# Section 5 rules
+rhel7cis_rule_5_1_1: true
+rhel7cis_rule_5_1_2: true
+rhel7cis_rule_5_1_3: true
+rhel7cis_rule_5_1_4: true
+rhel7cis_rule_5_1_5: true
+rhel7cis_rule_5_1_6: true
+rhel7cis_rule_5_1_7: true
+rhel7cis_rule_5_1_8: true
+rhel7cis_rule_5_2_1: true
+rhel7cis_rule_5_2_2: true
+rhel7cis_rule_5_2_3: true
+rhel7cis_rule_5_2_4: true
+rhel7cis_rule_5_2_5: true
+rhel7cis_rule_5_2_6: true
+rhel7cis_rule_5_2_7: true
+rhel7cis_rule_5_2_8: true
+rhel7cis_rule_5_2_9: true
+rhel7cis_rule_5_2_10: true
+rhel7cis_rule_5_2_11: true
+rhel7cis_rule_5_2_12: true
+rhel7cis_rule_5_2_13: true
+rhel7cis_rule_5_2_14: true
+rhel7cis_rule_5_2_15: true
+rhel7cis_rule_5_2_16: true
+rhel7cis_rule_5_3_1: true
+rhel7cis_rule_5_3_2: true
+rhel7cis_rule_5_3_3: true
+rhel7cis_rule_5_3_4: true
+rhel7cis_rule_5_4_1_1: true
+rhel7cis_rule_5_4_1_2: true
+rhel7cis_rule_5_4_1_3: true
+rhel7cis_rule_5_4_1_4: true
+rhel7cis_rule_5_4_2: true
+rhel7cis_rule_5_4_3: true
+rhel7cis_rule_5_4_4: true
+
+# Section 6 rules
+rhel7cis_rule_6_1_1: true
+rhel7cis_rule_6_1_2: true
+rhel7cis_rule_6_1_3: true
+rhel7cis_rule_6_1_4: true
+rhel7cis_rule_6_1_5: true
+rhel7cis_rule_6_1_6: true
+rhel7cis_rule_6_1_7: true
+rhel7cis_rule_6_1_8: true
+rhel7cis_rule_6_1_9: true
+rhel7cis_rule_6_1_10: true
+rhel7cis_rule_6_1_11: true
+rhel7cis_rule_6_1_12: true
+rhel7cis_rule_6_1_13: true
+rhel7cis_rule_6_1_14: true
+rhel7cis_rule_6_2_1: true
+rhel7cis_rule_6_2_2: true
+rhel7cis_rule_6_2_3: true
+rhel7cis_rule_6_2_4: true
+rhel7cis_rule_6_2_5: true
+rhel7cis_rule_6_2_6: true
+rhel7cis_rule_6_2_7: true
+rhel7cis_rule_6_2_8: true
+rhel7cis_rule_6_2_9: true
+rhel7cis_rule_6_2_10: true
+rhel7cis_rule_6_2_11: true
+rhel7cis_rule_6_2_12: true
+rhel7cis_rule_6_2_14: true
+rhel7cis_rule_6_2_15: true
+rhel7cis_rule_6_2_16: true
+rhel7cis_rule_6_2_17: true
+rhel7cis_rule_6_2_18: true
+rhel7cis_rule_6_2_19: true
+
+# Service configuration booleans set true to keep service
+rhel7cis_avahi_server: false
+rhel7cis_cups_server: false
+rhel7cis_dhcp_server: false
+rhel7cis_ldap_server: false
+rhel7cis_telnet_server: false
+rhel7cis_nfs_server: false
+rhel7cis_rpc_server: false
+rhel7cis_ntalk_server: false
+rhel7cis_rsyncd_server: false
+rhel7cis_tftp_server: false
+rhel7cis_rsh_server: false
+rhel7cis_nis_server: false
+rhel7cis_snmp_server: false
+rhel7cis_squid_server: false
+rhel7cis_smb_server: false
+rhel7cis_dovecot_server: false
+rhel7cis_httpd_server: false
+rhel7cis_vsftpd_server: false
+rhel7cis_named_server: false
+rhel7cis_nfs_rpc_server: false
+rhel7cis_is_mail_server: false
+rhel7cis_bind: false
+rhel7cis_vsftpd: false
+rhel7cis_httpd: false
+rhel7cis_dovecot: false
+rhel7cis_samba: false
+rhel7cis_squid: false
+rhel7cis_net_snmp: false
+rhel7cis_allow_autofs: false
+
+# xinetd required
+rhel7cis_xinetd_required: false
+
+# RedHat Satellite Subscription items
+rhel7cis_rhnsd_required: false
+
+# 1.4.2 Bootloader password
+rhel7cis_bootloader_password: random
+rhel7cis_set_boot_pass: true
+
+# System network parameters (host only OR host and router)
+rhel7cis_is_router: false
+
+# IPv6 required
+rhel7cis_ipv6_required: true
+
+# AIDE
+rhel7cis_config_aide: true
+# AIDE cron settings
+rhel7cis_aide_cron:
+  cron_user: root
+  cron_file: /etc/crontab
+  aide_job: '/usr/sbin/aide --check'
+  aide_minute: 0
+  aide_hour: 5
+  aide_day: '*'
+  aide_month: '*'
+  aide_weekday: '*'
+
+# SELinux policy
+rhel7cis_selinux_pol: targeted
+
+# Whether or not to run tasks related to auditing/patching the desktop environment
+rhel7cis_gui: no
+
+# Set to 'true' if X Windows is needed in your environment
+rhel7cis_xwindows_required: no
+
+rhel7cis_openldap_clients_required: false
+rhel7cis_telnet_required: false
+rhel7cis_talk_required: false
+rhel7cis_rsh_required: false
+rhel7cis_ypbind_required: false
+
+# Time Synchronization
+rhel7cis_time_synchronization: chrony
+#rhel7cis_time_synchronization: ntp
+
+rhel7cis_time_synchronization_servers:
+    - 0.pool.ntp.org
+    - 1.pool.ntp.org
+    - 2.pool.ntp.org
+    - 3.pool.ntp.org
+
+rhel7cis_chrony_server_options: "minpoll 8"
+rhel7cis_ntp_server_options: "iburst"
+
+# 3.4.2 | PATCH | Ensure /etc/hosts.allow is configured
+rhel7cis_host_allow:
+    - "10.0.0.0/255.0.0.0"
+    - "172.16.0.0/255.240.0.0"
+    - "192.168.0.0/255.255.0.0"
+
+rhel7cis_firewall: firewalld
+#rhel7cis_firewall: iptables
+
+rhel7cis_firewall_services:
+    - ssh
+    - dhcpv6-client
+
+# Warning Banner Content (issue, issue.net, motd)
+rhel7cis_warning_banner: |
+    Authorized uses only. All activity may be monitored and reported.
+# End Banner
+
+## Section4 vars
+
+rhel7cis_auditd:
+    admin_space_left_action: halt
+    max_log_file_action: keep_logs
+
+rhel7cis_logrotate: "daily"
+
+## Section5 vars
+
+rhel7cis_sshd:
+    clientalivecountmax: 3
+    clientaliveinterval: 300
+    ciphers: "aes256-ctr,aes192-ctr,aes128-ctr"
+    macs: "hmac-sha2-512-etm@openssh.com,hmac-sha2-256-etm@openssh.com,umac-128-etm@openssh.com,hmac-sha2-512,hmac-sha2-256,umac-128@openssh.com"
+    logingracetime: 60
+    # - make sure you understand the precedence when working with these values!!
+    #allowusers:
+    #allowgroups: systems dba
+    #denyusers:
+    #denygroups:
+
+rhel7cis_pass:
+    max_days: 90
+    min_days: 7
+    warn_age: 7
+# Syslog system
+rhel7cis_syslog: rsyslog
+#rhel7cis_syslog: syslog-ng
+
+rhel7cis_vartmp:
+    source: /tmp
+    fstype: none
+    opts: "defaults,nodev,nosuid,noexec,bind"
+    enabled: no
+
+rhel7cis_rule_5_4_2_min_uid: 1000
+
+###############################################
+# Values which modify the behaviour of the role
+###############################################
+
+cis_apply_level_1_profile: true    # Whether Level 1 of the benchmark should be applied
+cis_apply_level_2_profile: true    # Whether Level 2 of the benchmark should be applied
+
+cis_level_1_exclusions: ['1.2.3','1.8','3.4.2','3.4.3']         # A list of Level 1 recommendations to exclude (i.e. ['1.1.1.1'])
+#cis_level_1_exclusions: ['1.2.3','1.8']
+cis_level_2_exclusions: ['6.1.1']         # A list of Level 2 recommendations to exclude
+
+# Whether to fail when remediation items are found for recommendations which can't be automatically fixed.
+# If false, a debug message will be generated instead, with the preface *** ACTION REQUIRED ***..
+fail_on_manual_remediation_actions: false  # True or false.
+
+###############################################
+# Check specific values which can be overridden
+###############################################
+
+# 1.3.1
+cis_aide_database_filename: "/var/lib/aide/aide.db.gz"
+cis_aide_src_database_filename: "/var/lib/aide/aide.db.new.gz"
+
+# 1.3.2
+cis_aide_cron_user: "root"
+cis_aide_cron_job: "/usr/sbin/aide --check"
+cis_aide_cron_minute: 0
+cis_aide_cron_hour: 5
+cis_aide_cron_dow: "*" # Day of week
+cis_aide_cron_dom: "*" # Day of month
+cis_aide_cron_month: "*"
+
+# 1.7.1.2
+cis_local_login_warning_banner: "Authorized uses only. All activity may be monitored and reported.\n"
+# 1.7.1.3
+cis_remote_login_warning_banner: "Authorized uses only. All activity may be monitored and reported.\n"
+
+# 2.1.1
+cis_chargen_exception:
+cis_chargen_state: stopped
+
+# 2.1.2
+cis_daytime_exception:
+cis_daytime_state: stopped
+
+# 2.1.3
+cis_discard_exception:
+cis_discard_state: stopped
+
+# 2.1.4
+cis_echo_exception:
+cis_echo_state: stopped
+
+# 2.1.5
+cis_time_exception:
+cis_time_state: stopped
+
+# 2.1.6
+cis_rservices_install: { package: rsh-server, state: absent, rshserver_exception: }
+cis_rservice_rexec: { service: rexec.socket, enabled: no, state: stopped, rexec_exception: }
+cis_rservice_rlogin: { service: rlogin.socket, enabled: no, state: stopped, rlogin_exeception: }
+cis_rservice_rsh: { service: rsh.socket, enabled: no, state: stopped, rlogin_exeception: }
+
+# 2.1.7
+cis_talkd_install: { package: talk-server, state: absent, exception: 123, service: talk.socket, enabled: no, rstate: started, client: talk, client_state: absent }
+
+# 2.1.8
+cis_telnet_install: { package: telnet-server, state: absent, exception: 123, service: telnet.socket, enabled: no, rstate: started, client: telnet, client_state: present }
+
+# 2.1.9
+cis_tftp_install: { package: tftp-server, state: absent, exception: 123, service: tftp.socket, enabled: no, rstate: started, client: tftp, client_state: present }
+
+# 2.1.10
+cis_rsync_install: { package: rsync, state: absent, exception: 123, service: rsyncd, enabled: no, rstate: started }
+
+# 2.1.11  # NOTE NEED TO SET XINETD STATE IN TWO PLACES BELOW
+cis_xinetd_install: { package: xinetd, state: absent, exception: 123, service: xinetd, enabled: no, rstate: started }
+cis_xinetd_state: absent # Set state to absent if not needed, enables conditional pass for basic services e.g. chargen
+
+# 2.2.1.1
+# You should only enable either ntp or chrony, but not both.
+cis_enable_ntp: true # Set to true if ntp should be enabled/configured.
+cis_enable_chrony: false # Set to true if chrony should be enabled/configured.
+
+# 2.2.1.2
+# Enter the variables for configuring NTP
+# NTP
+cis_ntp_clients: |+
+  server 0.pool.ntp.org
+  server 1.pool.ntp.org
+  server 2.pool.ntp.org
+  server 3.pool.ntp.org
+
+cis_ntp_servers: |+
+  peer ntp1.company.com
+  restrict ntp1-1.company.com mask 255.255.255.255 nomodify notrap
+  peer ntp2.xpo.com
+  restrict ntp1-2.company.com mask 255.255.255.255 nomodify notrap
+  peer ntp3.xpo.com
+  restrict ntp1-3.company.com mask 255.255.255.255 nomodify notrap
+
+# 2.2.1.3
+# Enter the variables for configurating Chronyd Server
+# Chronyd
+cis_chrony_servers: |+
+  server 0.pool.ntp.org
+  server 1.pool.ntp.org
+  server 2.pool.ntp.org
+  server 3.pool.ntp.org
+
+# 2.2.2
+# Installation of X-Windows
+cis_xwindows_install: { package: "xorg-x11*", state: absent, exception: 123 }
+
+# 2.2.3
+# Installation of Avahi Daemon NOTE: Avahi service will not start without further configuration
+cis_avahi_install: { package: "avahi", state: absent, service: avahi-daemon, rstate: started, enabled: false, exception: 123 }
+
+# 2.2.4
+# Installation of CUPS
+cis_cups_install: { package: "cups", state: absent, service: cups, rstate: started, enabled: false, exception: 123 }
+
+# 2.2.5
+# Installation of DHCP Service
+cis_dhcpd_install: { package: "dhcp", state: absent, service: dhcpd, rstate: stopped, enabled: false, exception: 123 }
+
+# 2.2.6
+# Installation of LDAP Server
+cis_slapd_install: { package: "openldap-servers", state: absent, service: slapd, rstate: started, enabled: false, exception: 123 }
+
+# 2.2.7
+# Installation of NFS and RPC Services, NOTE: RPC Bind Service will only be started if NFS is present
+cis_nfs_install: { package: nfs-utils, state: absent, service: nfs-server, rstate: started, enabled: true, exception: 123 }
+cis_rpcbind_install: { package: rpcbind, state: absent, service: rpcbind, rstate: started, enabled: true, exception: 123 }
+
+# 2.2.8
+# Installation of DNS Bind, named service, NOTE: there are other Bind Services available if want to subsitute
+cis_named_install: { package: bind-chroot, state: absent, service: named, rstate: started, enabled: true, exception: 123 }
+
+# 2.2.9
+# Installation of FTP Server, vsftpd
+cis_vsftpd_install: { package: vsftpd, state: absent, service: vsftpd, rstate: started, enabled: true, exception: 123 }
+
+# 2.2.10
+# Installation of various HTTP Servers NOTE: Select one of the below
+cis_httpd_install: { package: httpd, state: absent, service: httpd, rstate: started, enabled: true, exception: 123 }
+cis_apache_install: { package: apache, state: absent, service: apache, rstate: started, enabled: true, exception: 123 }
+cis_apache2_install: { package: apache2, state: absent, service: apache2, rstate: started, enabled: true, exception: 123 }
+cis_nginx_install: { package: nginx, state: absent, service: nginx, rstate: started, enabled: true, exception: 123 }
+cis_lighttpd_install: { package: lighttpd, state: absent, service: lighttpd, rstate: started, enabled: true, exception: 123 }
+
+# 2.2.11
+# Installation of POP3 and IMAP Services
+cis_dovecot_install: { package: dovecot, state: absent, service: dovecot, rstate: started, enabled: true, exception: 123 }
+cis_cyrus_imapd_install: { package: cyrus-imapd, state: absent, service: cyrus-imapd, rstate: started, enabled: true, exception: 123 }
+
+# 2.2.12
+# Installation of SMB, SAMBA Services
+cis_smb_install: { package: samba, state: absent, service: smb, rstate: started, enabled: true, exception: 123 }
+
+# 2.2.13
+# Installation of Squid Services
+cis_squid_install: { package: squid, state: absent, service: squid, rstate: started, enabled: true, exception: 123 }
+
+# 2.2.14
+# Installation of SNMP Service
+cis_snmp_install: { package: net-snmp, state: absent, service: snmpd, rstate: started, enabled: true, exception: 123 }
+# SNMP Configuration
+cis_snmp_community: cis_test
+cis_snmp_syscontact: admin@domain.com
+cis_snmp_syslocation: XXXXXXX Datacenter
+
+cis_snmp_servers:
+  - { server: snmp01.domain.com, community: "{{ cis_snmp_community }}" }
+  - { server: snmp02.domain.com, community: "{{ cis_snmp_community }}" }
+  - { server: snmp03.domain.com, community: "{{ cis_snmp_community }}" }
+  - { server: snmp04.domain.com, community: "{{ cis_snmp_community }}" }
+  - { server: localhost.localdomain, community: "{{ cis_snmp_community }}" }
+
+cis_snmp_trapsink:
+  - { server: trapsink01.domain.com, community: "{{ cis_snmp_community }}" }
+  - { server: trapsink02.domain.com, community: "{{ cis_snmp_community }}" }
+
+# 2.2.16
+# Installation of NIS Service
+cis_nis_install: { package: ypserv, state: absent, service: ypserv, rstate: started, enabled: true, exception: 123 }
+
+# 3.1.1
+cis_v_3_1_1_ipv4_ip_forward: { proc_src: '/proc/sys/net/ipv4/ip_forward', kernel_param: 'net.ipv4.ip_forward', value: 0 }
+#v_3_1_1_ipv4_route_flush: { proc_src: '/proc/sys/net/ipv4/route/flush', kernel_param: 'net.ipv4.route.flush', value: 1}
+
+# 3.1.2
+cis_v_3_1_2_ipv4_conf_all_send_redirects: { proc_src: '/proc/sys/net/ipv4/conf/all/send_redirects', kernel_param: 'net.ipv4.conf.all.send_redirects', value: 0 }
+cis_v_3_1_2_ipv4_conf_default_send_redirects: { proc_src: '/proc/sys/net/ipv4/conf/default/send_redirects', kernel_param: 'net.ipv4.conf.default.send_redirects', value: 0 }
+#v_3_1_2_ipv4_ipv4_route_flush: { proc_src: '/proc/sys/net/ipv4/route/flush', kernel_param: 'net.ipv4.route.flush', value: 1 }
+
+# 3.2.1
+cis_v_3_2_1_ipv4_conf_all_accept_source_route: { proc_src: '/proc/sys/net/ipv4/conf/all/accept_source_route', kernel_param: 'net.ipv4.conf.all.accept_source_route', value: 0 }
+cis_v_3_2_1_ipv4_conf_default_accept_source_route: { proc_src: '/proc/sys/net/ipv4/conf/default/accept_source_route', kernel_param: 'net.ipv4.conf.default.accept_source_route', value: 0 }
+#v_3_2_1_ipv4_route_flush: { proc_src: '/proc/sys/net/ipv4/route/flush', kernel_param: 'flush', value: 1 }
+
+# 3.2.2
+cis_v_3_2_2_ipv4_conf_all_accept_redirects: { proc_src: '/proc/sys/net/ipv4/conf/all/accept_redirects', kernel_param: 'net.ipv4.conf.all.accept_redirects', value: 0 }
+cis_v_3_2_2_ipv4_conf_default_accept_redirects: { proc_src: '/proc/sys/net/ipv4/conf/default/accept_redirects', kernel_param: 'net.ipv4.conf.default.accept_redirects', value: 0 }
+cis_v_3_2_2_ipv4_route_flush: { proc_src: '/proc/sys/net/ipv4/route/flush', kernel_param: 'flush', value: 1 }
+
+# 3.2.3
+cis_v_3_2_3_ipv4_conf_all_secure_redirects: { proc_src: '/proc/sys/net/ipv4/conf/all/secure_redirects', kernel_param: 'net.ipv4.conf.all.secure_redirects', value: 0 }
+cis_v_3_2_3_ipv4_conf_default_secure_redirects: { proc_src: '/proc/sys/net/ipv4/conf/default/secure_redirects', kernel_param: 'net.ipv4.conf.default.secure_redirects', value: 0 }
+cis_v_3_2_3_ipv4_route_flush: { proc_src: '/proc/sys/net/ipv4/route/flush', kernel_param: 'flush', value: 1 }
+
+# 3.2.4
+cis_v_3_2_4_ipv4_conf_all_log_martians: { proc_src: '/proc/sys/net/ipv4/conf/all/log_martians', kernel_param: 'net.ipv4.conf.all.log_martians', value: 1 }
+cis_v_3_2_4_ipv4_conf_default_log_martians: { proc_src: '/proc/sys/net/ipv4/conf/default/log_martians', kernel_param: 'net.ipv4.conf.default.log_martians', value: 1 }
+cis_v_3_2_4_ipv4_route_flush: { proc_src: '/proc/sys/net/ipv4/route/flush', kernel_param: 'flush', value: 1 }
+
+# 3.2.5
+cis_v_3_2_5_ipv4_icmp_echo_ignore_broadcasts: { proc_src: '/proc/sys/net/ipv4/icmp_echo_ignore_broadcasts', kernel_param: 'net.ipv4.icmp_echo_ignore_broadcasts', value: 1 }
+cis_v_3_2_5_ipv4_route_flush: { proc_src: '/proc/sys/net/ipv4/route/flush', kernel_param: 'flush', value: 1 }
+
+# 3.2.6
+cis_v_3_2_6_ipv4_icmp_echo_ignore_bogus_error_responses: { proc_src: '/proc/sys/net/ipv4/icmp_ignore_bogus_error_responses', kernel_param: 'net.ipv4.icmp_ignore_bogus_error_responses', value: 1 }
+cis_v_3_2_6_ipv4_route_flush: { proc_src: '/proc/sys/net/ipv4/route/flush', kernel_param: 'flush', value: 1 }
+
+# 3.2.7
+cis_v_3_2_7_ipv4_conf_all_rp_filter: { proc_src: '/proc/sys/net/ipv4/conf/all/rp_filter', kernel_param: 'net.ipv4.conf.all.rp_filter', value: 1 }
+cis_v_3_2_7_ipv4_conf_default_rp_filter: { proc_src: '/proc/sys/net/ipv4/conf/default/rp_filter', kernel_param: 'net.ipv4.conf.default.rp_filter', value: 1 }
+cis_v_3_2_7_ipv4_route_flush: { proc_src: '/proc/sys/net/ipv4/route/flush', kernel_param: 'flush', value: 1 }
+
+# 3.2.8
+cis_v_3_2_8_ipv4_tcp_syncookies: { proc_src: '/proc/sys/net/ipv4/tcp_syncookies', kernel_param: 'net.ipv4.tcp_syncookies', value: 1 }
+cis_v_3_2_8_ipv4_route_flush: { proc_src: '/proc/sys/net/ipv4/route/flush', kernel_param: 'flush', value: 1 }
+
+# 3.3.1
+cis_v_3_3_1_ipv6_conf_all_accept_ra: { proc_src: '/proc/sys/net/ipv6/conf/all/accept_ra', kernel_param: 'net.ipv6.conf.all.accept_ra', value: 0 }
+cis_v_3_3_1_ipv6_conf_default_accept_ra: { proc_src: '/proc/sys/net/ipv6/conf/default/accept_ra', kernel_param: 'net.ipv6.conf.default.accept_ra', value: 0 }
+cis_v_3_3_1_ipv4_route_flush: { proc_src: '/proc/sys/net/ipv4/route/flush', kernel_param: 'flush', value: 1 }
+
+# 3.3.2
+cis_v_3_3_2_ipv6_conf_all_accept_redirects: { proc_src: '/proc/sys/net/ipv6/conf/all/accept_redirects', kernel_param: 'net.ipv6.conf.all.accept_redirects', value: 0 }
+cis_v_3_3_2_ipv6_conf_default_accept_redirects: { proc_src: '/proc/sys/net/ipv6/conf/default/accept_redirects', kernel_param: 'net.ipv6.conf.default.accept_redirects', value: 0 }
+cis_v_3_3_2_ipv4_route_flush: { proc_src: '/proc/sys/net/ipv4/route/flush', kernel_param: 'flush', value: 1 }
+
+# 3.4.2
+## Examples - but I cannot get them to work :-(
+cis_hosts_allow_all_ips:
+  - "127.0.0.1"
+  - "*.compute.amazonaws.com"
+
+# 3.6.1
+# Installation of Firewalld Service
+cis_firewalld_install: { package: firewalld, state: present, service: firewalld, rstate: started, enabled: true, exception: 123 }
+
+# 4.1
+## Configuration for the auditd.conf
+# 4.1.1.1
+# Max log file in MB
+cis_max_log_file: 8
+
+# 4.1.1.2
+## Ensure System is disabled when audit logs are full
+cis_space_left_action: email # Default SYSLOG
+cis_action_mail_acct: root # Default root
+cis_admin_space_left_action: halt # Default SUSPEND
+
+# 4.1.1.3
+## Ensure Audit logs are not automatically deleted
+cis_max_log_file_action: keep_logs # Default ROTATE
+
+# 4.1 - Remaining Auditd Logs
+cis_local_events: "yes"
+cis_write_logs: "yes"
+cis_log_file: /var/log/audit/audit.log
+cis_log_group: root
+cis_log_format: RAW
+cis_flush: INCREMENTAL_ASYNC
+cis_freq: 50
+cis_num_logs: 5
+cis_priority_boost: 4
+cis_disp_qos: lossy
+cis_dispatcher: /sbin/audispd
+cis_name_format: NONE
+##cis_name: mydomain
+cis_space_left: 75
+cis_admin_space_left: 50
+cis_disk_full_action: SUSPEND
+cis_disk_error_action: SUSPEND
+cis_use_libwrap: "yes"
+##cis_tcp_listen_port:
+cis_tcp_listen_queue: 5
+cis_tcp_max_per_addr: 1
+##cis_tcp_client_ports: 1024-65535
+cis_tcp_client_max_idle: 0
+cis_enable_krb5: "no"
+cis_krb5_principal: auditd
+##cis_krb5_key_file: /etc/audit/audit.key
+cis_distribute_network: "no"
+## The following are commented out in the Audit File but are required for the variables
+cis_name: mydomain
+cis_tcp_listen_port: blank
+cis_tcp_client_ports: 1024-65535
+cis_krb5_key_file: /etc/audit/audit.key
+
+# 4.2.3
+# You should only enable either rsyslog or syslog-ng, but not both.
+cis_enable_rsyslog: true # Set to true if rsyslog should be enabled/configured.
+cis_enable_syslog_ng: false # Set to true if syslog_ng should be enabled/configured.
+
+# 4.2.1.4
+cis_rsyslog_remote_loghost_address: "loghost.example.com" # Can be a hostname or IP address. If no forwarding should occur, exclude this check.
+
+# 4.2.1.5
+cis_rsyslog_accept_remote_messages: false # Set to true if the host should accept remote syslog messages.
+
+# 4.2.2.3
+cis_syslog_ng_file_perms: "0640"
+
+# 4.3
+cis_logrotate_period: weekly
+cis_logrotate_keep: "rotate 4"
+cis_logrotate_create: create
+cis_logrotate_suffix: dateext
+
+# 5.2.5
+cis_sshd_max_auth_tries: 4
+
+# 5.2.11
+cis_sshd_ciphers: "aes256-ctr,aes192-ctr,aes128-ctr"
+
+# 5.2.12
+cis_sshd_macs: "hmac-sha2-512-etm@openssh.com,hmac-sha2-256-etm@openssh.com,umac-128-etm@openssh.com,hmac-sha2-512,hmac-sha2-256,umac-128@openssh.com"
+
+# 5.2.13
+cis_sshd_client_alive_interval: 300
+cis_sshd_client_alive_count_max: 0
+
+# 5.2.14
+cis_sshd_login_grace_time: 60
+
+# 5.2.15
+cis_sshd_allow_users: "" # A comma-delimited list of users to allow ssh access to
+cis_sshd_allow_groups: "" # A comma-delimited list of groups ot allow ssh access to
+cis_sshd_deny_users: "" # A comma-delimited list of users to deny ssh access for
+cis_sshd_deny_groups: "" # A comma-delimited list of groups to deny ssh access for
+
+# 5.2.16
+cis_sshd_banner: "/etc/issue.net"
+
+# 5.3.1
+cis_pwquality_minlen: "14" # Minimum number of characters required for passwords
+cis_pwquality_dcredit: "-1" # At least one digit must be provided
+cis_pwquality_ucredit: "-1" # At least one uppercase character must be provided
+cis_pwquality_ocredit: "-1" # At least one special character must be provided
+cis_pwquality_lcredit: "-1" # At least one lowercase character must be provided
+
+# 5.3.2
+cis_pwfailed_attempts: "5" # Number of failed login attempts before account locked
+cis_pwunlock_time: "900" # Time in seconds before the login attempt can be tried again without auto failing
+
+# 5.3.3
+cis_pwretry_number: "3" # Number of times a password can be attempted before sending back a failure
+cis_pwreuse_number: "5" # Ensure password reuse is limited to this number
+
+# 5.3.4
+cis_passwd_hash: "sha512" # Options are sha512 or md5
+
+# 5.4.1
+cis_pass_max_days: 90
+cis_pass_min_days: 7
+cis_pass_warn_age: 7
+cis_pass_inactive_lock: 30
+
+# 5.4.2
+cis_skip_lock_users:
+  - root
+  - halt
+  - shutdown
+  - sync
+
+# 5.4.4
+cis_umask_default: "027"
+cis_umask_shell_files:
+  - /etc/bashrc
+  - /etc/profile
+
+# 5.5
+cis_wheel_group_members: "root"
