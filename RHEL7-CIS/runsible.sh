@@ -16,7 +16,7 @@ sudo pip install ansible markupsafe
 }
 
 run_playbook () {
-ansible-playbook -b -u $USER $local_co -i "$IP," playbook.yml --ask-become-pass
+ansible-playbook -b -u $USER $local_co -i "$IP," playbook.yml
 }
 
 install_dependencies
