@@ -3,7 +3,7 @@
 set -o errexit
 
 install_dependencies () {
-sudo yum update
+sudo yum -y update
 
 local_co=""
 if [ -z "$IP" ]; then
