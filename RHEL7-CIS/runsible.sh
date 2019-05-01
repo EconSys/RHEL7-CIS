@@ -15,7 +15,7 @@ sudo yum -y --enablerepo=extras install epel-release
 sudo yum install -y python-pip git python-dev
 sudo pip install ansible markupsafe
 git clone https://github.com/EconSys/RHEL7-CIS.git
-cd RHEL7-CIS
+cd RHEL7-CIS && cd RHEL7-CIS
 }
 
 run_playbook () {
