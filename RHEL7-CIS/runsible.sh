@@ -21,6 +21,7 @@ if [ -z "$IP" ]; then
 fi
 
 ansible-playbook -b -u $USER $local_co -i "$IP," playbook.yml
+service auditd restart
 }
 
 install_dependencies
