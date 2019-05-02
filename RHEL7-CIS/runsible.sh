@@ -15,3 +15,4 @@ fi
 
 ansible-playbook -b -u $USER $local_co -i "$IP," playbook.yml
 service auditd restart
+mount -o remount,noexec,nosuid,nodev /tmp
