@@ -27,6 +27,11 @@
   tags:
       - prelim_tasks
 
+- import_tasks: prelim_stig2.yml
+  become: yes
+  tags:
+      - prelim_tasks
+
 - name: Include CAT I patches
   import_tasks: fix-cat1.yml
   when: rhel7stig_cat1_patch | bool
