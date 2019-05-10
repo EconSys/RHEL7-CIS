@@ -21,6 +21,32 @@
   tags:
       - prelim_tasks
       - always
+      
+- import_tasks: prelim_stig.yml
+  become: yes
+  tags:
+      - prelim_tasks
+
+- name: Include CAT I patches
+  import_tasks: fix-cat1.yml
+  when: rhel7stig_cat1_patch | bool
+  tags:
+      - cat1
+      - high
+
+- name: Include CAT II patches
+  import_tasks: fix-cat2.yml
+  when: rhel7stig_cat2_patch | bool
+  tags:
+      - cat2
+      - medium
+
+- name: Include CAT III patches
+  import_tasks: fix-cat3.yml
+  when: rhel7stig_cat3_patch | bool
+  tags:
+      - cat3
+      - low
 
 - include: section1.yml
   become: yes
