@@ -3,7 +3,7 @@
   connection: local
   gather_facts: true
   become: yes
-  ignore_on_error: yes
+  ignore_errors: yes
   pre_tasks:
     - name: install packages for testing under docker
       yum:
