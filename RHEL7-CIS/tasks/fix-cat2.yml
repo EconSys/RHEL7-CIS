@@ -507,7 +507,7 @@
   replace:
       path: "{{ item }}"
       regexp: '^([^#].*)NOPASSWD(.*)'
-      replace: '\1PASSWD\2'
+      replace: '\1NOPASSWD\2'
       validate: '/usr/sbin/visudo -cf %s'
   with_items: "{{ rhel7stig_sudoers_files.stdout_lines }}"
   when:
