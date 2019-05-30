@@ -34,3 +34,6 @@ iptables -P FORWARD DROP
 
 sed -i 's/umask 022/umask 027/g' /etc/bashrc
 sed -i 's/inet_interfaces = localhost/inet_interfaces = loopback-only/g' /etc/postfix/main.cf
+
+sed -i 's/#$ModLoad imtcp/$ModLoad imtcp/g' /etc/rsyslog.conf
+sed -i 's/#$UDPServerRun 514/$InputTCPServerRun 514/g' /etc/rsyslog.conf
