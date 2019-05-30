@@ -33,3 +33,4 @@ iptables -P OUTPUT DROP
 iptables -P FORWARD DROP
 
 sed -i 's/umask 022/umask 027/g' /etc/bashrc
+sed -i 's/inet_interfaces = localhost/inet_interfaces = loopback-only/g' /etc/postfix/main.cf
