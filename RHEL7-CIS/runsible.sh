@@ -16,3 +16,20 @@ fi
 ansible-playbook -b -u $USER $local_co -i "$IP," playbook.yml
 service auditd restart
 mount -o remount,noexec,nosuid,nodev /tmp
+mount -o remount,nodev /home
+
+
+echo "restrict -4 default kod nomodify notrap nopeer noquery" >> /etc/ntp.conf
+echo """ OPTIONS="-u ntp:ntp" """ >> /etc/ntp.conf
+
+chown root:root /boot/grub2/grub.cfg 
+chmod og-rwx /boot/grub2/grub.cfg
+chown root:root /boot/grub2/user.cfg 
+chmod og-rwx /boot/grub2/user.cfg
+
+
+iptables -P INPUT DROP
+iptables -P OUTPUT DROP 
+iptables -P FORWARD DROP
+
+sed -i 's/umask 022/umask 027/g' /etc/bashrc
