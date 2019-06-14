@@ -494,7 +494,7 @@ rhel7stig_av_package:
         - clamav-server
     service: clamav-daemon
 
-rhel7stig_time_service: chronyd
+rhel7stig_time_service: ntpd
 rhel7stig_time_service_configs:
     chronyd:
         conf: /etc/chrony.conf
@@ -1080,7 +1080,7 @@ rhel7cis_time_synchronization_servers:
     - 2.pool.ntp.org
     - 3.pool.ntp.org
 
-rhel7cis_chrony_server_options: "minpoll 8"
+#rhel7cis_chrony_server_options: "minpoll 8"
 rhel7cis_ntp_server_options: "iburst"
 
 # 3.4.2 | PATCH | Ensure /etc/hosts.allow is configured
