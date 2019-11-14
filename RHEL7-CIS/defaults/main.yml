@@ -499,10 +499,9 @@ rhel7stig_time_service_configs:
     chronyd:
         conf: /etc/chrony.conf
         block: |
-          server 0.rhel.pool.ntp.org iburst maxpoll 10
-          server 1.rhel.pool.ntp.org iburst maxpoll 10
-          server 2.rhel.pool.ntp.org iburst maxpoll 10
-          server 3.rhel.pool.ntp.org iburst maxpoll 10
+          server time-a-g.nist.gov iburst maxpoll 10
+          server time-b-g.nist.gov iburst maxpoll 10
+          server time-c-g.nist.gov iburst maxpoll 10
     ntpd:
         conf: /etc/ntp.conf
         lines:
@@ -1075,10 +1074,9 @@ rhel7cis_ypbind_required: false
 rhel7cis_time_synchronization: ntp
 
 rhel7cis_time_synchronization_servers:
-    - 0.pool.ntp.org
-    - 1.pool.ntp.org
-    - 2.pool.ntp.org
-    - 3.pool.ntp.org
+    - time-a-g.nist.gov
+    - time-b-g.nist.gov
+    - time-c-g.nist.gov
 
 #rhel7cis_chrony_server_options: "minpoll 8"
 rhel7cis_ntp_server_options: "iburst"
@@ -1229,10 +1227,9 @@ cis_enable_chrony: false # Set to true if chrony should be enabled/configured.
 # Enter the variables for configuring NTP
 # NTP
 cis_ntp_clients: |+
-  server 0.pool.ntp.org
-  server 1.pool.ntp.org
-  server 2.pool.ntp.org
-  server 3.pool.ntp.org
+  server time-a-g.nist.gov
+  server time-b-g.nist.gov
+  server time-c-g.nist.gov
 
 cis_ntp_servers: |+
   peer ntp1.company.com
@@ -1246,10 +1243,9 @@ cis_ntp_servers: |+
 # Enter the variables for configurating Chronyd Server
 # Chronyd
 cis_chrony_servers: |+
-  server 0.pool.ntp.org
-  server 1.pool.ntp.org
-  server 2.pool.ntp.org
-  server 3.pool.ntp.org
+  server time-a-g.nist.gov
+  server time-b-g.nist.gov
+  server time-c-g.nist.gov
 
 # 2.2.2
 # Installation of X-Windows
