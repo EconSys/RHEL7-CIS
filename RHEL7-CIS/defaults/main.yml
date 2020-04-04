@@ -664,8 +664,8 @@ rhel7stig_pam_pwhistory:
 # pam_faillock settings - accounts must be locked for max time period after 3 unsuccessful attempts within 15 minutes.
 rhel7stig_pam_faillock:
     attempts: 3
-    interval: 900
-    unlock_time: 900
+    interval: 1800
+    unlock_time: 1800
     fail_for_root: yes
 
 # RHEL-07-030320 and RHEL-07-030321
@@ -1493,8 +1493,8 @@ cis_pwquality_ocredit: "-1" # At least one special character must be provided
 cis_pwquality_lcredit: "-1" # At least one lowercase character must be provided
 
 # 5.3.2
-cis_pwfailed_attempts: "5" # Number of failed login attempts before account locked
-cis_pwunlock_time: "900" # Time in seconds before the login attempt can be tried again without auto failing
+cis_pwfailed_attempts: "3" # Number of failed login attempts before account locked
+cis_pwunlock_time: "1800" # Time in seconds before the login attempt can be tried again without auto failing
 
 # 5.3.3
 cis_pwretry_number: "3" # Number of times a password can be attempted before sending back a failure
